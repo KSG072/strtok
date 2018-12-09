@@ -10,7 +10,7 @@ void strtok_tok_tok_Tropicana(char* str, const char* search){
     toInt = str[i];
     toFind = *search;
   
-    if(toInt == 32) printf("\n");
+    if(toInt == toFind) printf("\n");
     else printf("%c", str[i]);
   }
 }
