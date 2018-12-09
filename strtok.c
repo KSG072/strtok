@@ -4,10 +4,11 @@
 //스트링 톡. 톡. 톡. 트로피카나!
 void strtok_tok_tok_Tropicana(char* str, const char* search){
   int len = strlen(str);
-  int toInt;
+  int toInt, toFind;
 
   for(int i=0; i<len; i++){
     toInt = str[i];
+    toFind = *search;
   
     if(toInt == 32) printf("\n");
     else printf("%c", str[i]);
